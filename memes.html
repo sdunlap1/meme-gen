@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="memes.css" />
+    <title>Memes on memes Yo!</title>
+  </head>
+  <body>
+    <h1>Create Some Memes</h1>
+    <div class="memeitUp">
+      <form action="" id="memes">
+        <label for="pastedURL">Paste the URL:</label>
+        <input type="text" id="pastedURL" name="URL" />
+        <br />
+        <label for="topMeme">Top Text:</label>
+        <input type="text" id="topMeme" name="topMeme" placeholder="[ Optional ]" />
+        <br />        
+        <label for="bottomMeme">Bottom Text:</label>
+        <input type="text" id="memeBottom" name="bottomMeme" placeholder="[ Optional ]" />
+        <br />
+        <button type="submit" id="submitUrl">Submit the Meme</button> <br />
+        <label for="memePic" id="memesDone">Finished Meme <span class="fontStyles">[Click on pictures to remove from list]</span></label>
+      </form>
+      <div id="placeHolder">
+      
+      </div>
+    </div>
+    <script src="memes.js"></script>
+  </body>
+</html>
